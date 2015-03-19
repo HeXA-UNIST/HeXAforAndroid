@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_centerHorizontal="true"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/triangle_patterned_hexa"
+    android:scaleType="centerCrop"
+    />
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="이 앱은 비공식 배포 버전입니다\nThanks to\n버스정보_linoegg,LMTE\n밥먹기 십오분전_isho,carpedm20\n포탈게시판_isho\n스터디룸 예약,익명게시판_Oh Hyun Jun "
+        android:textColor="#80FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

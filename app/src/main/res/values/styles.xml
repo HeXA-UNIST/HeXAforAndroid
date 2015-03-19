@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item tools:targetApi="11" name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:tabWidgetStyle">@style/CustomTabWidget</item>
+    </style>
+    <style name="CustomTabWidget" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:textAppearance">@style/CustomTabWidgetText</item>
+    </style>
+    <style name="CustomTabWidgetText"
+        parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

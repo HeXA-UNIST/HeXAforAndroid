@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bap"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:id="@+id/text"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="등록된 식단이 없어요ㅠㅠ\n밥먹기 '15분 전'에 올라옵니다!"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
